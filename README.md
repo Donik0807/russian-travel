@@ -4,6 +4,6 @@
 При создании сайта использовалась инструменты для обеспечения адаптивности сайта, чтобы пользователи могли посетить сайт с любого устройства!
 
 
-* [Ссылка на проект в GitHub Pages](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на проект в GitHub Pages](https://donik0807.github.io/russian-travel/)
 
 
