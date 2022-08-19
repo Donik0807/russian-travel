@@ -1,0 +1,7 @@
+.places__place {
+    width: 100%;
+}
+
+.places__place:not(:last-child) {
+    margin-bottom: 80px;
+}

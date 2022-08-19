@@ -1,0 +1,9 @@
+.header__lang-link {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.header__lang-link:last-child {
+    text-decoration: none;
+}

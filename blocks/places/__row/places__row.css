@@ -1,0 +1,14 @@
+.places__row {
+    display: flex;
+    width: 100%;
+}
+
+.places__row:nth-child(1) {
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .places__row {
+        flex-direction: column;
+    }
+}
