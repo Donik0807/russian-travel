@@ -1,7 +1,13 @@
 .places__place {
-    width: 100%;
+  width: 100%;
 }
 
 .places__place:not(:last-child) {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .places__place:not(:last-child) {
+    margin-bottom: 50px;
+  }
 }

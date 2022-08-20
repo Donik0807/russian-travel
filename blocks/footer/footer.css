@@ -1,13 +1,12 @@
 .footer {
-    width: 92.5%;
-    margin: 0 auto 24px;
-    display: flex;
-    justify-content: space-between;
+  width: 92.5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
-    .footer {
-        flex-direction: column;
-        justify-content: initial;
-    }
+  .footer {
+    flex-direction: column;
+    justify-content: initial;
+  }
 }

@@ -1,12 +1,12 @@
 .places__website {
-    margin: 0;
-    align-self: flex-end;
-    width: 50%;
+  margin: 0;
+  align-self: flex-end;
+  width: 50%;
 }
 
 @media screen and (max-width: 767px) {
-    .places__website {
-        width: 92.5%;
-        margin: 32px auto 0;
-    }
+  .places__website {
+    width: 92.5%;
+    margin: 32px auto 0;
+  }
 }
