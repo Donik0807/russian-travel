@@ -3,13 +3,13 @@
   color: #ffffff;
 }
 
-.footer__link + .footer__link {
-  margin-left: 18px;
+.footer__link:not(:last-child) {
+  margin-right: 19px;
 }
 
 @media screen and (max-width: 767px) {
-  .footer__link + .footer__link {
-    margin-top: 32px;
-    margin-left: 0px;
+  .footer__link:not(:last-child) {
+    margin-bottom: 32px;
+    margin-right: 0;
   }
 }

@@ -1,0 +1,25 @@
+.place {
+  width: 100%;
+}
+
+.place:not(:last-child) {
+  margin-bottom: 78px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place:not(:last-child) {
+    margin-bottom: 55px;
+  }
+}

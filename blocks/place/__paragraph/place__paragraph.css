@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -8,12 +8,18 @@
   margin: 0;
 }
 
+.place__paragraph:not(:last-child) {
+  margin-bottom: 26px;
+}
+
 @media screen and (max-width: 1023px) {
-  .places__paragraph {
+  .place__paragraph {
     font-size: 16px;
   }
 }
 
-.places__paragraph + .places__paragraph {
-  margin-top: 26px;
+@media screen and (max-width: 767px) {
+  .place__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
