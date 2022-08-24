@@ -27,8 +27,10 @@
   transition: opacity 0.5s linear 0.2s;
 }
 
-.cover__link:hover::before {
-  opacity: 0.8;
+@media (any-hover: hover) {
+  .cover__link:hover::before {
+    opacity: 0.8;
+  }
 }
 
 @media screen and (max-width: 1279px) {
